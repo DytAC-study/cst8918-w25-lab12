@@ -3,8 +3,8 @@ Prof. Robert McKenney
 
 **Team Members:**
 - [Yuntian Du] ([DytAC-study](https://github.com/DytAC-study))
-- [Cong Zhao] ([](https://github.com/队友的github用户名))
-- [Yifan Jian] ([](https://github.com/队友的github用户名))
+- [Cong Zhao] ([zhao0294](https://github.com/zhao0294))
+- [Yifan Jian] ([JianyiF](https://github.com/JianyiF))
 
 # Lab 12: Terraform CI/CD on Azure with GitHub Actions
 
