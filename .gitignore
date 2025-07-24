@@ -29,3 +29,19 @@
 .vscode
 .idea
 .idea
+
+# Terraform plan and crash files
+*.tfplan
+crash.log
+
+# Local override variable files (sensitive info)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Editor-specific (Visual Studio Code, IntelliJ)
+.vscode/
+.idea/
+
+__azurite_db_*
