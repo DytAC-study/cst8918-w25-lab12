@@ -40,6 +40,11 @@ override.tf.json
 *_override.tf
 *_override.tf.json
 
+# Sensitive information files
+get-storage-key.sh
+secrets.txt
+*.key
+
 # Editor-specific (Visual Studio Code, IntelliJ)
 .vscode/
 .idea/
