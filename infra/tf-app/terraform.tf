@@ -13,6 +13,8 @@ terraform {
     container_name       = "tfstate"
     key                  = "prod.app.tfstate"
     use_oidc             = true
+    tenant_id            = "e39de75c-b796-4bdd-888d-f3d21250910c"
+    client_id            = "07eb766c-5e67-4475-bb20-a61bf56be49b"
   }
 }
 
