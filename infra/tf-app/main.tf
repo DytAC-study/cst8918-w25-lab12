@@ -1,8 +1,8 @@
 resource "azurerm_resource_group" "app_rg" {
   name     = "0411175585-a12-rg"
-  location = "canadaeast"
+  location = var.location
   tags = {
-    Environment = "production"
-    Project     = "cst8918-lab12"
+    Environment = var.environment
+    Project     = var.project_name
   }
 }
