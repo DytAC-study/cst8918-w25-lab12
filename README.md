@@ -85,9 +85,12 @@ Full instructions for each step can be found in the [docs](docs) folder. Please 
 
 1. Submit the URL of your GitHub repository.
 2. Include in your submission a screenshot of the Pull Request showing the successful completion of the workflows - expand the "All checks have passed" section to show the steps.
-3. Include in your submission a screenshot of the Pull Request showing the expanded results of the Terraform Plan step.
-4. Embed the screenshots in your README.md file.
-5. The README.md file should clearly identify the full name and GitHub username of each team member.
+<img width="1872" height="773" alt="image" src="https://github.com/user-attachments/assets/937fc217-cd9f-479b-be90-efe34ef32e1d" />
+<img width="1875" height="719" alt="image" src="https://github.com/user-attachments/assets/ca1d4f84-33b6-42f8-bbad-99b4c25b53c4" />
+
+4. Include in your submission a screenshot of the Pull Request showing the expanded results of the Terraform Plan step.
+5. Embed the screenshots in your README.md file.
+6. The README.md file should clearly identify the full name and GitHub username of each team member.
 
 ## Additional References
 
