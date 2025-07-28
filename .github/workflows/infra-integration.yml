@@ -2,7 +2,7 @@ name: Terraform Integration Tests
 
 on:
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
     paths:
       - 'infra/**'
 

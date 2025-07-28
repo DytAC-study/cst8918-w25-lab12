@@ -2,11 +2,11 @@ name: Terraform Static Tests
 
 on:
   push:
-    branches: [ main, develop ]
+    branches: [ master, develop ]
     paths:
       - 'infra/**'
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
     paths:
       - 'infra/**'
 
