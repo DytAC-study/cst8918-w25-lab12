@@ -34,16 +34,18 @@ When you are done, your project folder structure should look like this:
 cst8918-w25-lab12
 ├── .github
 │   └── workflows
-│       ├── infra-ci-cd.yml
-│       ├── infra-drift-detection.yml
-│       └── infra-static-tests.yml
+│       ├── infra-static-tests.yml
+│       ├── infra-integration.yml
+│       ├── infra-deploy.yml
+│       └── infra-drift-detection.yml
 ├── app
 │   └── .gitkeep
 ├── infra
 │   ├── az-federated-credential-params
 |   |   ├── branch-main.json
 │   │   ├── production-deploy.json
-|   |   └── pull-request.json
+|   |   ├── pull-request.json
+│   │   └── branch-workflow-test-2.json
 │   ├── tf-app
 │   |   ├── .tflint.hcl
 │   │   ├── main.tf
@@ -62,7 +64,7 @@ cst8918-w25-lab12
 
 ## Instructions
 
-This lab should be completed in teams of two. One team member will create the GitHub repository and invite the other as a collaborator. Most of the numbered steps should be completed by one of the team member committing and pushing the code on a dev branch, with the other team member reviewing and approving the pull request. Each team member should contribute equally to the codebase.
+This lab should be completed in teams of three. One team member will create the GitHub repository and invite the others as collaborators. Most of the numbered steps should be completed by one of the team member committing and pushing the code on a dev branch, with the other team members reviewing and approving the pull request. Each team member should contribute equally to the codebase.
 
 > [!IMPORTANT]
 > Submissions with only one team member's contributions will incur 20% grade penalty for that team member, and the other team member will receive a grade of zero (0). Collaboration is required!
@@ -89,9 +91,18 @@ Full instructions for each step can be found in the [docs](docs) folder. Please 
 4. Embed the screenshots in your README.md file.
 5. The README.md file should clearly identify the full name and GitHub username of each team member.
 
+## Screenshots
+
+### Pull Request Checks
+![Pull Request Checks](screenshots/pr-checks.png)
+
+### Terraform Plan Results
+![Terraform Plan Results](screenshots/pr-tf-plan.png)
+
 ## Additional References
 
 Based on the [GitHub Actions Workflows for Terraform](https://github.com/Azure-Samples/terraform-github-actions)
 
 https://learn.microsoft.com/en-ca/azure/developer/github/connect-from-azure?tabs=azure-cli%2Clinux#use-the-azure-login-action-with-openid-connect
 # Trigger workflow test
+# Test deployment workflow
