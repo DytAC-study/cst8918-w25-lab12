@@ -6,6 +6,31 @@ Prof. Robert McKenney
 - [Cong Zhao] ([zhao0294](https://github.com/zhao0294))
 - [Yifan Jian] ([JianyiF](https://github.com/JianyiF))
 
+## Team Collaboration & Responsibilities
+
+### Yuntian Du (DytAC-study)
+- **GitHub Repository Setup**: Created repository, configured environments and branch protection rules
+- **GitHub Secrets Configuration**: Set up all Azure secrets and OIDC authentication
+- **Terraform Code Development**: Created and maintained all Terraform configurations
+- **Azure AD Setup**: Created Azure AD applications and service principals
+- **RBAC Configuration**: Configured role assignments for service principals
+
+### Cong Zhao (zhao0294)
+- **Azure Infrastructure Setup**: Created Azure resource groups and storage accounts
+- **OIDC Authentication Troubleshooting**: Resolved federated credential issues
+- **GitHub Actions Workflow Development**: Created and debugged all CI/CD workflows
+- **Terraform Backend Configuration**: Set up Azure Blob Storage for remote state
+- **Deployment Testing**: Tested and validated all workflows
+
+### Yifan Jian (JianyiF)
+- **Documentation**: Created comprehensive documentation and guides
+- **Screenshots**: Captured all required screenshots for Lab submission
+- **Pull Request Reviews**: Reviewed and approved team contributions
+- **Final Validation**: Verified all Lab requirements were met
+
+## Collaboration Summary
+All team members contributed equally to the project, with each person taking lead on different aspects of the infrastructure and CI/CD pipeline development.
+
 # Lab 12: Terraform CI/CD on Azure with GitHub Actions
 
 ## Background
