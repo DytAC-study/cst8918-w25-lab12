@@ -22,7 +22,7 @@ Prof. Robert McKenney
 - **Terraform Backend Configuration**: Set up Azure Blob Storage for remote state
 - **Deployment Testing**: Tested and validated all workflows
 
-### Yifan Jian (JianyiF)
+### Jianyi Fan (JianyiF)
 - **Documentation**: Created comprehensive documentation and guides
 - **Screenshots**: Captured all required screenshots for Lab submission
 - **Pull Request Reviews**: Reviewed and approved team contributions
