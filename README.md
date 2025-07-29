@@ -79,9 +79,6 @@ cst8918-w25-lab12
 │   │   └── variables.tf
 │   └── tf-backend
 │       └── main.tf
-├── screenshots
-│   ├── pr-checks.png
-│   └── pr-tf-plan.png
 ├── .editorconfig
 ├── .gitignore
 └── README.md
@@ -148,7 +145,7 @@ Drift Detection
 
 ## Lab Completion Status
 
-✅ **All Lab requirements completed successfully!**
+**All Lab requirements completed successfully!**
 
 ### Completed Tasks:
 - [x] GitHub repository setup with environment and branch protection
@@ -163,10 +160,10 @@ Drift Detection
 - [x] Team collaboration demonstrated
 
 ### Workflows Status:
-- ✅ **Terraform Static Tests** - Working
-- ✅ **Terraform Integration Tests** - Working  
-- ✅ **Terraform Deploy** - Working
-- ✅ **Terraform Drift Detection** - Working
+-  **Terraform Static Tests** - Working
+-  **Terraform Integration Tests** - Working  
+-  **Terraform Deploy** - Working
+-  **Terraform Drift Detection** - Working
 
 ## Additional References
 
