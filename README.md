@@ -106,3 +106,4 @@ Based on the [GitHub Actions Workflows for Terraform](https://github.com/Azure-S
 https://learn.microsoft.com/en-ca/azure/developer/github/connect-from-azure?tabs=azure-cli%2Clinux#use-the-azure-login-action-with-openid-connect
 # Trigger workflow test
 # Test deployment workflow
+# Test RBAC fix for deployment workflow
